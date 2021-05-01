@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - 3D Interactive Card</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="card">
+  <div class="card-content">
+    <h1>CARD</h1>
+    <p>By Nathaniel Redmon</p>
+    <div class="card-cover"></div>
+  </div>
+</div>
+
+<!--     The card cover is almost a hack solution to working with event.offsetX/Y. I'm sure there is a better way to do this but I dont have the time to perfect this solution. This essentially covers the whole card in a transparent div that acts as a interactive plate for the javascript. When the card cover is not placed here. Any elements within the div are picked up by the event.offset of the mousemove and the values are incorrect. -->
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
